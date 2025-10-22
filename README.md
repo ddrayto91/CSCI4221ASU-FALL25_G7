@@ -1,6 +1,7 @@
 # CSCI4221ASU/FALL25_G7
 
-Product vision statement
+Product vision statement: 
+
 To create a connected academic community where students support each other’s learning through shared resources, collaboration tools, and collective motivation.
 
 
