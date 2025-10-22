@@ -1,8 +1,7 @@
 # CSCI4221ASU/FALL25_G7
 
-Product vision statement: 
+Derrick Drayton
+Role: Designer & Prototype Developer  
+Product Vision Statement:  
+Our product, GradeMate, helps university students connect with classmates, collaborate on assignments, share resources, and improve academic performance. It allows students to find study partners, form project groups, and access shared materials all in one place.
 
-To create a connected academic community where students support each other’s learning through shared resources, collaboration tools, and collective motivation.
-
-
-Hello my name is Derrick Drayton, im a senior computer science major and i will be serveing as the project manager for this group.
