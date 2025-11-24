@@ -1,0 +1,29 @@
+1. What are included in the architecture design?
+The structure of the system, components, their interactions, technologies used, and design rules.
+
+2. What is the architecture of a software?
+It’s the high-level blueprint showing how the system is organized and how parts work together.
+
+3. What is a component of the software architecture?
+A major building block of the system, like modules, services, databases, or interfaces.
+
+4. What are the non-functional system quality attributes?
+Performance, security, reliability, scalability, usability, and maintainability.
+
+5. What are the architecture design issues?
+Choosing the right structure, technology, data flow, communication style, and handling constraints.
+
+6. What architectural design questions should be asked?
+How will components connect? What tech will be used? How will data flow? How will we ensure security, performance, and scaling?
+
+7. How are components organized in architecture design?
+They are grouped into layers, modules, or services with clear communication paths.
+
+8. Where does the architectural complexity come from?
+From many components, integrations, constraints, scaling needs, and different technologies.
+
+9. Name four architecture designs.
+Layered, Client-Server, Microservices, Event-Driven.
+
+10. What are the technology choices in architecture design?
+Programming languages, frameworks, databases, servers, cloud platforms, and communication protocols.
