@@ -1,44 +1,32 @@
 1. What are three factors that drive the design of software products?
-
 User needs
-
 Business goals
-
 Technology constraints
 
 2. What is a software feature?
-
 A feature is a specific function or capability the software provides to the user.
 
 3. What is a persona?
-
 A persona is a fictional user that represents a real user type who will use the software.
 
 4. What persona descriptions should you have?
-
 Name, background, goals, skills, frustrations, and how they will use the system.
 
 5. What is a scenario?
-
 A scenario is a short story describing how a persona uses the system to achieve a goal.
 
 6. What are the scenario elements?
-
 Persona, goal, steps/actions, system responses, and the final outcome.
 
 7. How to write a scenario?
-
 Describe the persona, state the goal, list simple steps they take, and show what the system does in each step.
 
 8. What is a user story?
-
 A short requirement written as:
 “As a user, I want ___ so that ___.”
 
 9. What is a feature?
-
 A feature is a meaningful high-level function that delivers value to the user.
 
 10. How to derive a feature?
-
 Study user stories and scenarios, group related tasks, and combine them into a single larger function
