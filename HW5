@@ -1,0 +1,55 @@
+1. What is a software service?
+A software service is a self-contained function that performs a specific task and can be used by other software through a defined interface.
+
+2. Is a web service a software service?
+Yes. A web service is a type of software service that runs over the web using standard protocols.
+
+3. What is a modern web service?
+A modern web service uses HTTP, JSON, REST, or similar technologies to allow systems to interact easily across the internet.
+
+4. What are microservices?
+Microservices are small, independent services that each handle one specific business function and communicate over lightweight APIs.
+
+5. Example of deriving microservices from a feature
+Feature: Online shopping checkout
+Microservices you derive:
+Payment Service
+Cart Service
+Inventory Service
+Shipping Service
+Order Service
+Each takes one part of the feature and becomes its own service.
+
+6. Characteristics of microservices
+Small and focused
+Independently deployable
+Loosely coupled
+Organized around business functions
+Can use different technologies
+Scalable individually
+
+7. How microservices communicate
+They communicate through:
+REST APIs (HTTP)
+Messaging (queues, events)
+gRPC
+Asynchronous events for decoupling
+
+8. Questions microservice architecture must ask
+What should each service do?
+How will services communicate?
+How will data be split?
+How will failures be handled?
+How will scaling and security work?
+
+9. What are RESTful services?
+RESTful services use standard HTTP methods (GET, POST, PUT, DELETE) and resources (URLs) to let systems interact simply and consistently.
+
+10. RESTful service principles
+Use resources, not actions
+Use standard HTTP methods
+Stateless communication
+Meaningful URLs
+Use standard formats like JSON
+
+Support caching
