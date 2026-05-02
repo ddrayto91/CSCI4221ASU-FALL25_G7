@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scale & Savor | Kitchen Math Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app-container">
+        <header>
+            <h1>Scale & Savor</h1>
+            <p>Master the math of the kitchen.</p>
+        </header>
+        
+        <div class="controls">
+            <div class="slider-group">
+                <label>Scaling Factor: <span id="multiplier-label">1x</span></label>
+                <input type="range" id="multiplier" min="0.25" max="10" step="0.25" value="1">
+            </div>
+            <div class="info-badge" id="logic-note">Current Mode: Standard Scaling</div>
+        </div>
+
+        <main class="main-content">
+            <!-- Input Section -->
+            <section class="editor">
+                <h3>1. Original Recipe</h3>
+                <textarea id="input" placeholder="Type here, e.g.:&#10;1 cup sugar&#10;2.5 tsp vanilla&#10;500ml milk"></textarea>
+            </section>
+
+            <!-- Output Section -->
+            <section class="viewer">
+                <h3>2. Scaled Result</h3>
+                <div id="output" class="output-area">Waiting for ingredients...</div>
+            </section>
+
+            <!-- Educational Sidebar -->
+            <aside class="sidebar">
+                <h3>Kitchen Math Cheat Sheet</h3>
+                <ul class="conversion-list">
+                    <li><strong>3 tsp</strong> = 1 tbsp</li>
+                    <li><strong>16 tbsp</strong> = 1 cup</li>
+                    <li><strong>1 cup flour</strong> ≈ 125g</li>
+                    <li><strong>1 cup liquid</strong> ≈ 240ml</li>
+                </ul>
+                <div class="pro-tip">
+                    <strong>Pro Tip:</strong> When scaling up 4x or more, reduce salt and spices by 10% then taste-test!
+                </div>
+            </aside>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
